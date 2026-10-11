@@ -1,3 +1,6 @@
+# WorkBuddy / 工具自动生成目录（不应提交）
+.workbuddy/
+
 # macOS
 .DS_Store
 ._*
@@ -28,3 +31,17 @@ __pycache__/
 *.py[cod]
 .venv/
 venv/
+*.egg-info/
+
+# Build outputs / 构建产物
+dist/
+build/
+out/
+target/
+.cache/
+
+# Temporary files / 临时文件
+*.tmp
+*.bak
+*.orig
+*.rej
